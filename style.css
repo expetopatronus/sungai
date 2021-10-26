@@ -1,0 +1,146 @@
+* {
+	margin: 0;
+	position: absolute;
+}
+
+body {
+	height: 90vh;
+	width: 100vw;
+	background: #333;
+}
+
+:root{
+	--tanah: #C35050;
+}
+
+#canvas, #jumbotron {
+	height: 60vmin;
+	width: 80vmin;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 5vmin;
+	overflow: hidden;
+	background: #D2D2FF;
+}
+
+#sungai {
+	height: 20vmin;
+	width: 100%;
+	background: #5C7AE4;
+	bottom: 0;
+}
+
+#tanah1 {
+	width: 50vmin;
+	height: 10vmin;
+	border-radius: 5vmin 10vmin 0 0;
+	background: var(--tanah);
+	bottom: 14vmin;
+	left: -15vmin;
+}
+
+#tanah2 {
+	width: 70vmin;
+	height: 50vmin;
+	background: var(--tanah);
+	top: 52vmin;
+	transform: rotate(-12deg);
+	right: -17vmin;
+}
+
+#gunung1, #gunung2 {
+	height: 70vmin;
+	width: 70vmin;
+	background: #AF9CF1;
+	transform: rotate(45deg);
+	z-index: -7;
+	top: 20vmin;
+	right: -20vmin;
+}
+
+#gunung2 {
+	right: 3vmin;
+	background: #BDAEF1;
+	z-index: -8;
+}
+
+
+.pohon {
+	height: 0;
+	width: 0;
+	border: 12px solid rgba(0,0,0,0.0);
+	border-width: 7vmin 2vmin;
+	border-bottom-color: #316031;
+	bottom: 2vmin;
+	right: 10vmin;
+}
+
+#p2 {
+	right: 30vmin;
+	bottom: 1vmin;
+	border-width: 9vmin 2vmin;
+}
+
+#p3 {
+	right: 40vmin;
+	bottom: 0vmin;
+}
+
+#p4 {
+	bottom: 4vmin;
+	right: 24vmin;
+	border-width: 5vmin 1vmin;
+}
+
+#p5 {
+	right: 17vmin;
+	bottom: 7vmin;
+}
+
+#p6 {
+	right: 3vmin;
+	bottom: 9vmin;
+	border-width: 5vmin .5vmin;
+}
+
+#p7 {
+	right: 6vmin;
+	bottom: 7vmin;
+	border-width: 8vmin 1.5vmin;
+}
+
+#p8 {
+	right: 18vmin;
+	bottom: 1vmin;
+}
+
+#p9 {
+	right: 15vmin;
+	bottom: 5vmin;
+}
+
+#jumbotron {
+	opacity: 0;
+	background: #000;
+}
+
+#jumbotron p {
+	font-size: 10vmin;
+	z-index: 999;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+#jumbotron:hover {
+	opacity: 0.4
+}
+
+
+
+
+
+
+
